@@ -57,16 +57,6 @@ const NavBar = () => {
                   Home
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink
-                  tag={RouterNavLink}
-                  to="/login"
-                  exact
-                  activeClassName="router-link-exact-active"
-                >
-                  Descope Login
-                </NavLink>
-              </NavItem>
               {isAuthenticated && (
                 <NavItem>
                   <NavLink
