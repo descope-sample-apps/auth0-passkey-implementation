@@ -34,6 +34,8 @@ To build and run the Docker image, run `exec.sh`, or `exec.ps1` on Windows.
 yarn run test
 ```
 
+If you need the flow, to work with OIDC and Passkeys, it is the `oidc-flow.json` file in the root of this directory. This can be downloaded and imported via the [Descope Console](https://app.descope.com/flows).
+
 ## Issue Reporting
 
 If you have found a bug or if you have a feature request, please report them at this repository issues section.
