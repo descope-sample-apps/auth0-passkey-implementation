@@ -29,9 +29,7 @@ const providerConfig = {
 };
 
 ReactDOM.render(
-  <AuthProvider
-    projectId={process.env.DESCOPE_PROJECT_ID || "P2R7WwEBcPXJwCQUaYi7RuECP58h"}
-  >
+  <AuthProvider projectId={process.env.REACT_APP_DESCOPE_PROJECT_ID}>
     <Auth0Provider {...providerConfig}>
       <App />
     </Auth0Provider>
