@@ -30,8 +30,7 @@ const providerConfig = {
 
 ReactDOM.render(
   <AuthProvider
-    projectId="P2OsukzgPw9cRtwup9twFLEqSABG"
-    baseUrl="https://api.descope.org"
+    projectId={process.env.DESCOPE_PROJECT_ID || "P2R7WwEBcPXJwCQUaYi7RuECP58h"}
   >
     <Auth0Provider {...providerConfig}>
       <App />
