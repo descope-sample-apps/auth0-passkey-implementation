@@ -30,7 +30,7 @@ const providerConfig = {
 
 ReactDOM.render(
   <AuthProvider
-    projectId={process.env.DESCOPE_PROJECT_ID || "P2PD8H2nZbPk5cSJfChsc00ZCi0w"}
+    projectId={process.env.DESCOPE_PROJECT_ID || "P2R7WwEBcPXJwCQUaYi7RuECP58h"}
   >
     <Auth0Provider {...providerConfig}>
       <App />
