@@ -9,7 +9,7 @@ This sample demonstrates the integration of Descope Passkeys with a basic userna
 1. Create `.env` for env variables;
 
 ```
-DESCOPE_PROJECT_ID=<Descope Project ID from Descope Console>
+REACT_APP_DESCOPE_PROJECT_ID=<Descope Project ID from Descope Console>
 ```
 
 2. Edit `auth_config.json` under the `views` folder, with your Auth0 credentials from the [Auth0 Settings Page](https://auth0.com/docs/get-started/applications/application-settings#basic-settings)
